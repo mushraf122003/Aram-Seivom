@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="style.css">
+    <title>Aram Seivom Trust</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" >
+    
+
+
+</head>
+<body>
+    <section class="header">
+        <nav class="menu">
+            <a href="index.html"><img height="70" width="95" src="image/ar_logo1.jpg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-bar" onclick="hidemenu()"><ion-icon name="caret-forward-outline"></ion-icon></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about_af.html">ABOUT US</a></li>
+                    <li><a href="blog_af.html">BLOG</a></li>
+                </ul>
+            </div>
+            <i class="fa" onclick="showmenu()"><ion-icon name="list-outline"></ion-icon></i>
+        </nav>
+        <div class="text_box">
+            <h1>WELCOME TO ARAM SEIVOM TRUST</h1><br>
+            <h1>அறம் செய்வொம் அறக்கட்டளை</h1><br>
+            <p>
+               WE ARE HERE TO WORK FOR THE WELLNESS OF POOR.<br>
+               LET'S MAKE A CHANGE IN THE LIFE OF PHYSICALLY CHANLEGED PERSONS.<br>
+               GIVE US YOUR SUPPORT. 
+            </p><br>
+            <a href="about_af.html"><button class="button-85" role="button"><h3>CLICK HERE TO KNOW ABOUT US</h3></button></a>
+        </div>
+    </section>
+ 
+
+
+
+
+
+
+    <!-----------------------------------JAVASCRIPT-------------------------------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu(){
+            navlinks.style.right= "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px"
+        }
+    </script>
+
+<!-------------icons--------------->
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
